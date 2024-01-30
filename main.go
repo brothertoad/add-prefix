@@ -11,7 +11,7 @@ func main() {
     os.Exit(1)
   }
   prefix := os.Args[1]
-  fmt.Printf("prefix is %s\n", prefix)
+  // fmt.Printf("prefix is %s\n", prefix)
   files := os.Args[2:]
   for _, file := range(files) {
     target := prefix + file
